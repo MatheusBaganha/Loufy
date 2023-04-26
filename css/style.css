@@ -30,6 +30,9 @@ body {
     flex-wrap: wrap;
     padding: 18px 32px;
     background-color: #050A0D;
+    position: sticky;
+    top: 0;
+    z-index: 3;
 }
 
 .navList {
@@ -81,12 +84,15 @@ body {
         flex-direction: column;
         justify-content: center;
         padding: 12px;
+    }
 
+    .logo {
+        font-size: 1.8rem;
     }
     
     .navList {
         justify-content: center;
-        margin-top: 18px;
+        margin-top: 16px;
     }
 
     .navList li a {
@@ -202,7 +208,7 @@ body {
 /* Qualidades */
 
 .qualidades {
-    padding: 64px 0;
+    padding: 64px 0 122px 0;
     background-color: #060909;
 }
 
@@ -295,7 +301,7 @@ body {
     flex-wrap: wrap;
     justify-content: space-between;
     margin: 64px auto;
-    max-width: 940px;
+    max-width: 970px;
     padding: 0 12px;
 }
 
