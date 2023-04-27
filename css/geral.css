@@ -1,0 +1,183 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #F2F5F6;
+}
+
+a:hover {
+    color: #cccfcf;
+}
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    background-color: #000104;
+    color: #F2F5F6;
+}
+
+/* HEADER */
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 18px 32px;
+    background-color: #050A0D;
+    position: sticky;
+    top: 0;
+    z-index: 3;
+}
+
+.navList {
+    display: flex;
+    gap: 0 32px;
+}
+
+.logo {
+    font-size: 2.7rem;
+}
+
+@media(max-width: 500px) {
+    .header {
+        flex-direction: column;
+        justify-content: center;
+        padding: 12px;
+    }
+
+    .logo {
+        font-size: 1.8rem;
+    }
+    
+    .navList {
+        justify-content: center;
+        margin-top: 16px;
+    }
+
+    .navList li a {
+        font-size: 0.8rem;
+    }
+}
+
+
+
+/* FOOTER */
+
+
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: baseline;
+    background-color: #000104;
+    color: #DEDEDE;
+    margin-top: 64px;
+}
+
+.footer .logo {
+    position: relative;
+    top: 16px;
+}
+
+.itemFooter h5 {
+    font-size: 1.1rem;
+    color: #687275;
+}
+
+.itemFooter p {
+    font-size: 1rem;
+}
+
+.listaRedesSociais {
+    display: flex;
+    align-items: baseline;
+    gap: 0 16px;
+}
+
+.footer li {
+    margin: 8px 0;
+}
+
+.containerIconeRedeSocial img {
+    display: block;
+    width: 28px;
+    height: 28px;
+}
+
+.termos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 64px auto;
+    max-width: 970px;
+    padding: 0 12px;
+}
+
+.termosItem {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0 112px;
+}
+
+.termosItem h6 a, #copyright {
+    font-size: 1rem;
+    color: #838E8E;
+}
+
+#copyright {
+    margin-left: -108px;
+}
+
+@media(max-width: 660px) {
+    .footer {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin-top: 64px;
+        margin-left: 36px;
+    }
+    
+    .footer .logo {
+        position: relative;
+        top: 16px;
+        margin-bottom: 32px;
+    }
+    
+    
+    .navFooter {
+        margin-top: 32px;
+    }
+    
+    
+    .termos {
+        flex-direction: column;
+        justify-content: flex-start;
+        margin-left: 22px;
+    }
+    
+    .termosItem {
+        flex-direction: column;
+        gap: 0 112px;
+    }
+    
+    .termosItem h6 a, #copyright {
+        display: block;
+        margin-bottom: 12px;
+    }
+
+    #copyright {
+        margin-left: 0px;
+        margin-top: 32px;
+    }
+}
