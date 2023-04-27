@@ -48,3 +48,18 @@
 strong {
     color: #008BC7;
 }
+
+@media(max-width: 620px) {
+    .sobreItem {
+        max-width: 290px;
+        padding: 18px;
+    }
+    
+    .sobreItem h2 {
+        font-size: 1.5rem;
+    }
+    
+    .sobreItem p {
+        font-size: 0.9rem;
+    }
+}
