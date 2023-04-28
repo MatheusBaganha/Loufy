@@ -25,6 +25,21 @@ body {
     color: #F2F5F6;
 }
 
+@keyframes comeFromTop {
+    from {
+        opacity: 0;
+        transform: translateY(-64px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.animacao {
+    animation: comeFromTop .7s ease-in forwards;
+}
+
 /* HEADER */
 
 
