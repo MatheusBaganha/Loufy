@@ -1,10 +1,13 @@
+#bgSobre {
+    background-color: #020507;
+}
+
 .sobreContainer {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     margin: 0 auto;
-    background-color: #020507;
 }
 
 .sobreItem {
@@ -49,6 +52,44 @@ strong {
     color: #008BC7;
 }
 
+#plataformaLoufy {
+    background-color: #0074a5;
+}
+
+.tableContainer {
+    max-width: 600px;
+    background-color: #323232;
+    border: 1px solid rgb(21, 21, 21);
+    border-radius: 4px;
+    text-align: center;
+    margin-bottom: 64px;
+}
+
+.tableHead {
+    background-color: #0e0e0e;
+    border-bottom: 1px solid rgb(21, 21, 21);
+    height: 22px;
+    padding: 6px;
+    font-size: 1.5rem;
+}
+
+.tableRow {
+    border-right: 1px solid rgb(21, 21, 21);
+}
+
+.tableRow, .tableData {
+    border-bottom: 1px solid rgb(21, 21, 21);
+    height: 22px;
+    padding: 6px;
+    font-weight: 500;
+    font-size: 1.3rem;
+}
+
+.tableData {
+    background-color: #1f1d1d;
+    color: #d2d2d2;
+}
+
 @media(max-width: 620px) {
     .sobreItem {
         max-width: 290px;
@@ -61,5 +102,17 @@ strong {
     
     .sobreItem p {
         font-size: 0.9rem;
+    }
+
+    .tableContainer {
+        max-width: 290px;
+    }
+    
+    .tableHead {
+        font-size: 1.2rem;
+    }
+    
+    .tableRow, .tableData {
+        font-size: 1rem;
     }
 }
