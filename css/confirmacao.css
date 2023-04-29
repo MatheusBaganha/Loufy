@@ -1,0 +1,47 @@
+.confirmacaoBg {
+    background-color: #020507;
+}
+.containerGeralConfirmacao {
+    display: block;
+    padding: 92px 0;
+    margin: 0 auto;
+    width: 300px;
+}
+
+#mensagemEnviada {
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+.containerItemConfirmacao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 28px 16px;
+    background-color: #0b1113;
+    border-radius: 8px;
+    box-shadow: 0 6px 6px rgba(0, 0, 0, .6);
+}
+
+.containerSvgConfirm {
+    display: block;
+    margin: 32px auto;
+}
+
+#voltarHome {
+    color: #008BC7;
+    font-weight: bold;
+    text-align: center;
+}
+
+#voltarHome:hover {
+    color: #47abd6;
+}
+
+
+@media (max-width: 330px) {
+    .containerGeralConfirmacao {
+        width: 280px;
+    }
+}
