@@ -3,6 +3,13 @@
     margin: 0;
     box-sizing: border-box;
 }
+html {
+    scroll-behavior: smooth;
+}
+
+:target {
+    margin-top: 0.7rem;
+}
 
 li {
     list-style: none;
